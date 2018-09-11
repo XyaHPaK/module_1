@@ -1,0 +1,201 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+}
+.wrapper{
+	
+}
+.block_first{
+	background: url(bg-1.png) 15% 50% no-repeat #2ecc71;
+	padding-left: 414px;
+	padding-top: 32px;
+	padding-bottom: 179px;
+	position: relative;
+}
+.header{
+
+}
+.FittApp_logo{
+	display: inline-block;
+	vertical-align: middle;
+}
+.nav_button{
+	display: inline-block;
+	color: #fefefe;
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 0.72px; 
+	width: 140px;
+	height: 42px;
+	border-radius: 21px;
+	line-height: 40px;
+	text-align: center;
+}
+.FittApp_logo+.nav_button{
+	margin-left: 334px;
+}
+.nav_button:hover{
+	background-color: #ffffff;
+	color: #2ecc71;
+}
+.block_first_content{
+	margin-top: 197px;
+	position: relative;
+
+}
+.logo{
+	width: 111px;
+	height: 111px;
+	box-shadow: 0 0 60px rgba(48, 60, 17, 0.15);
+}
+.header_title{
+	color: #f4f4f4;
+	font-family: Roboto;
+	font-size: 64px;
+	font-weight: 300;
+	letter-spacing: 2.56px;
+}
+.title_item{
+	font-family: "Roboto";
+	font-weight: 700;
+	letter-spacing: 2.56px;
+}
+.text{
+	width: 627px;
+	color: #f4f4f4;
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 32px;
+	letter-spacing: 0.72px;
+}
+.markets{
+	margin-top: 61px;
+}
+.markets>img+img{
+	margin-left: 30px;
+}
+.phone-home{
+	position: absolute;
+	width: 404px;
+	height: 753px;
+	bottom: 0;
+	left: 1250px;
+}
+.strawberry{
+	position: absolute;
+	bottom: -50px;
+	left: 900px;
+}
+.block_second{
+	padding-top: 111px;
+	text-align: center;
+}
+.block_second_content{
+	
+}
+.image_nav{
+display: inline-block;
+width: 570px;
+height: 750px;
+line-height: 750px;
+position: relative;
+}
+.features_group{
+	vertical-align: middle;
+	margin-left: 100px;
+}
+.iphone_features{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.discription{
+	display: inline-block;
+	padding-left: 90px;
+	vertical-align: middle;
+	
+}
+.block_second_title{
+	color: #5a5a5a;
+	font-family: Roboto;
+	font-size: 48px;
+	font-weight: 300;
+	letter-spacing: 1.44px;	
+}
+.block_second_title_item{
+	color: #2ecc71;
+}
+.discription>.text{
+	width: 462px;
+	color: #5a5a5a;
+}
+.block_third{
+	padding-top: 116px;
+	text-align: center;
+	background: url(bg-way.png) 49% 95% no-repeat;
+}
+.block_third>.text{
+	display: inline-block;
+	width: 848px;
+	color: #5a5a5a;
+}
+.phones_way{
+	display: block;
+	margin-top: 111px;
+}
+.block_fourth{
+	padding-top: 150px;
+	
+}
+.block_fourth_content{
+	text-align: center;
+}
+.block_fourth_content_item{
+	display: inline-block;
+	vertical-align: middle;
+}
+.block_fourth_content_item>.text{
+	width: 462px;
+	color: #5a5a5a;
+}
+.last_block{
+	text-align: center;
+	padding-top: 113px;
+	padding-bottom: 100px;
+	background: url(bg-footer.png) 50% 25% no-repeat #2ecc71;
+}
+.last_block>.block_second_title{
+	color: #ffffff;
+}
+.last_block_item{
+	font-weight: 700;
+}
+.last_block>.text{
+	display: inline-block;
+	width: 848px;
+}
+.get_app_button{
+	margin-top: 60px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	color: #ffffff;
+	width: 247px;
+	height: 42px;
+	line-height: 40px;
+	border-radius: 21px;
+	background: red;
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 0.72px;
+}
+.get_app_button:hover{
+	cursor: pointer;
+	color: #2ecc71;
+	background: #ffffff;
+}
